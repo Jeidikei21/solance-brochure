@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOLANCE SPA — Soluciones Industriales</title>
+<meta name="description" content="SOLANCE SPA — Ingeniería y soluciones industriales.">
+<link rel="icon" type="image/png" href="assets/img/logo/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="topnav" id="topnav">
+  <a href="#inicio" class="logo">
+    <img src="assets/img/logo/logo.svg" alt="SOLANCE SPA" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+    <span class="logo-text" style="display:none;">SOLANCE<em>.</em></span>
+  </a>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="#inicio" data-section="inicio">Inicio</a>
+    <a href="#servicios" data-section="servicios">Servicios</a>
+    <a href="#proceso" data-section="proceso">Proceso</a>
+    <a href="#nosotros" data-section="nosotros">Nosotros</a>
+    <a href="#proyectos" data-section="proyectos">Proyectos</a>
+    <a href="#contacto" data-section="contacto" class="mobile-cta">Contacto</a>
+  </nav>
+
+  <div class="nav-actions">
+    <a href="#" class="nav-icon" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+    <a href="#" class="nav-icon" aria-label="Instagram" target="_blank" rel="noopener">ig</a>
+    <a href="#contacto" class="nav-cta">Cotizar <span>&rarr;</span></a>
+  </div>
+
+  <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="side-nav" id="sideNav">
+  <span class="side-nav-line"></span>
+  <a href="#inicio" data-section="inicio"><em>Inicio</em>01</a>
+  <a href="#servicios" data-section="servicios"><em>Servicios</em>02</a>
+  <a href="#proceso" data-section="proceso"><em>Proceso</em>03</a>
+  <a href="#nosotros" data-section="nosotros"><em>Nosotros</em>04</a>
+  <a href="#proyectos" data-section="proyectos"><em>Proyectos</em>05</a>
+  <a href="#contacto" data-section="contacto"><em>Contacto</em>06</a>
+</div>
+
+<main class="snap-container" id="snapContainer">
+
+  <section id="inicio" class="section hero">
+    <div class="hero-card">
+      <div class="hero-card-inner">
+        <div class="hero-grid-overlay"></div>
+        <video class="hero-video" autoplay muted loop playsinline poster="assets/img/hero/hero-poster.jpg">
+          <source src="assets/video/hero-loop.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="dash"></span>SOLANCE SPA</p>
+          <h1 class="hero-title">
+            SOLUCIONES<br>
+            TÉCNICAS <span class="accent">SIN LÍMITE DE TERRENO</span>
+          </h1>
+          <p class="hero-subtitle">
+            Limpieza de paneles solares, mantenimiento de sitios móviles en zonas rurales
+            y soluciones de tecnología y optimización operativa.
+          </p>
+          <div class="hero-actions">
+            <a href="#servicios" class="btn btn-primary">Ver Servicios</a>
+            <button type="button" class="play-btn" id="playHeroVideo">
+              <span class="play-circle">&#9654;</span>
+              <span>Ver video</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-float-card">
+          <span class="hero-float-tag">Partner Internacional</span>
+          <h4>DESIGENIA — Europa</h4>
+          <p>Mantenimiento de sitios móviles en zonas rurales, en alianza con nuestro partner europeo.</p>
+          <a href="#nosotros" class="hero-float-link">Conócenos &rarr;</a>
+        </div>
+      </div>
+
+      <div class="hero-stats-pill">
+        <div class="hero-stat"><span class="dash"></span>Limpieza de Paneles Solares</div>
+        <div class="hero-stat"><span class="dash"></span>Mantenimiento de Sitios Móviles</div>
+        <div class="hero-stat"><span class="dash"></span>Tecnología &amp; Optimización Operativa</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section services">
+    <div class="container">
+      <p class="eyebrow"><span class="dash"></span>SERVICIOS</p>
+      <h2 class="section-title">LO QUE HACEMOS</h2>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <span class="service-num">01</span>
+          <div class="service-icon">
+            <img src="assets/img/iconos/paneles-solares.svg" alt="" onerror="this.style.display='none'">
+          </div>
+          <h3>Limpieza de Paneles Solares</h3>
+          <p>Limpieza técnica de paneles fotovoltaicos en hogares, empresas y pequeños negocios. Recuperamos el rendimiento de tu instalación con protocolos que cuidan los equipos.</p>
+          <ul class="service-tags">
+            <li>Diagnóstico de rendimiento</li>
+            <li>Limpieza especializada</li>
+            <li>Informe antes/después</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <span class="service-num">02</span>
+          <div class="service-icon">
+            <img src="assets/img/iconos/sitios-moviles.svg" alt="" onerror="this.style.display='none'">
+          </div>
+          <h3>Mantenimiento de Sitios Móviles</h3>
+          <p>En alianza con <strong>DESIGENIA</strong> (Europa), mantenemos sitios móviles de telecomunicaciones en zonas rurales, asegurando continuidad de servicio donde el acceso es más exigente.</p>
+          <ul class="service-tags">
+            <li>Mantención preventiva y correctiva</li>
+            <li>Cobertura en zonas rurales</li>
+            <li>Coordinación técnica internacional</li>
+          </ul>
+        </article>
+
+        <article class="service-card featured">
+          <span class="service-num">03</span>
+          <div class="service-icon">
+            <img src="assets/img/iconos/tecnologia.svg" alt="" onerror="this.style.display='none'">
+          </div>
+          <h3>Tecnología y Optimización Operativa</h3>
+          <p>Soluciones en seguridad, telecomunicaciones, automatización y datos, orientadas a detectar problemas reales y transformar información dispersa en decisiones concretas.</p>
+          <ul class="service-tags">
+            <li>Seguridad y CCTV</li>
+            <li>Telecomunicaciones</li>
+            <li>Automatización</li>
+            <li>Dashboards e indicadores</li>
+            <li>Control de acceso</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="proceso" class="section process">
+    <div class="container">
+      <p class="eyebrow"><span class="dash"></span>PROCESO</p>
+      <h2 class="section-title">CÓMO TRABAJAMOS</h2>
+
+      <div class="process-grid">
+        <span class="process-line"></span>
+        <div class="process-step">
+          <span class="process-num">01</span>
+          <h3>Diagnóstico</h3>
+          <p>Levantamiento técnico y operativo para conocer el estado real de tus sistemas y procesos.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">02</span>
+          <h3>Priorización</h3>
+          <p>Clasificación de hallazgos según criticidad, impacto, costo y urgencia.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">03</span>
+          <h3>Propuesta</h3>
+          <p>Diseño de alternativas prácticas, escalables y ajustadas a presupuesto.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">04</span>
+          <h3>Implementación</h3>
+          <p>Ejecución por etapas, configuración, pruebas y puesta en servicio.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">05</span>
+          <h3>Seguimiento</h3>
+          <p>Reportes, indicadores, mantenimiento y acompañamiento según necesidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section about">
+    <div class="container about-grid">
+      <div class="about-media">
+        <img src="assets/img/nosotros/equipo.jpg" alt="Equipo SOLANCE SPA" onerror="this.parentElement.classList.add('img-fallback')">
+        <span class="about-frame"></span>
+      </div>
+
+      <div class="about-copy">
+        <p class="eyebrow"><span class="dash"></span>NOSOTROS</p>
+        <h2 class="section-title light">EXPERIENCIA QUE<br>CONSTRUYE CONFIANZA</h2>
+        <p class="about-text">
+          En SOLANCE SPA trabajamos junto a nuestros clientes para entregar soluciones
+          seguras, eficientes y a la medida de cada proyecto: desde la limpieza de paneles
+          solares hasta el mantenimiento de infraestructura crítica en terreno.
+        </p>
+
+        <p class="partner-badge"><span class="dash"></span>Partner internacional — DESIGENIA (Europa)</p>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-num" data-count="12">0</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="150">0</span>
+            <span class="stat-label">Proyectos ejecutados</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="98">0</span>
+            <span class="stat-label">% Satisfacción cliente</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section projects">
+    <div class="container">
+      <p class="eyebrow"><span class="dash"></span>PROYECTOS</p>
+      <h2 class="section-title">TRABAJOS REALIZADOS</h2>
+
+      <div class="projects-grid">
+        <a href="#" class="project-card">
+          <img src="assets/img/proyectos/proyecto-01.jpg" alt="Proyecto 01" onerror="this.parentElement.classList.add('img-fallback')">
+          <div class="project-overlay">
+            <span class="project-tag">Paneles Solares</span>
+            <h3>Nombre del Proyecto</h3>
+          </div>
+        </a>
+        <a href="#" class="project-card">
+          <img src="assets/img/proyectos/proyecto-02.jpg" alt="Proyecto 02" onerror="this.parentElement.classList.add('img-fallback')">
+          <div class="project-overlay">
+            <span class="project-tag">Sitios Rurales</span>
+            <h3>Nombre del Proyecto</h3>
+          </div>
+        </a>
+        <a href="#" class="project-card">
+          <img src="assets/img/proyectos/proyecto-03.jpg" alt="Proyecto 03" onerror="this.parentElement.classList.add('img-fallback')">
+          <div class="project-overlay">
+            <span class="project-tag">Seguridad CCTV</span>
+            <h3>Nombre del Proyecto</h3>
+          </div>
+        </a>
+        <a href="#" class="project-card">
+          <img src="assets/img/proyectos/proyecto-04.jpg" alt="Proyecto 04" onerror="this.parentElement.classList.add('img-fallback')">
+          <div class="project-overlay">
+            <span class="project-tag">Automatización</span>
+            <h3>Nombre del Proyecto</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow"><span class="dash light"></span>CONTACTO</p>
+        <h2 class="section-title light">HABLEMOS DE<br>TU PROYECTO</h2>
+        <p class="about-text light">
+          Escríbenos y te contactaremos a la brevedad para evaluar tu requerimiento.
+        </p>
+
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:contacto@solance.cl">contacto@solance.cl</a></li>
+          <li><span>Teléfono</span><a href="tel:+56900000000">+56 9 0000 0000</a></li>
+          <li><span>Ubicación</span><a>Chile</a></li>
+        </ul>
+
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label>Nombre</label>
+          <input type="text" name="nombre" required>
+        </div>
+        <div class="form-row">
+          <label>Empresa</label>
+          <input type="text" name="empresa">
+        </div>
+        <div class="form-row">
+          <label>Email</label>
+          <input type="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label>Mensaje</label>
+          <textarea name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> SOLANCE SPA. Todos los derechos reservados.</span>
+      <span>Diseño industrial · Web one-page</span>
+    </footer>
+  </section>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
